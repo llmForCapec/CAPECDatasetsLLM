@@ -7,7 +7,7 @@ This repository provides datasets generated from the **Common Attack Pattern Enu
 
 ## Overview
 
-The repository includes five directories, each containing code snippets in **JavaScript**, **Java**, and **Python** for designated CAPEC patterns and their associated weaknesses (CWE). Each directory represents a separate generation run using GPT models, aimed at testing the consistency and robustness of the outputs across iterations.
+The repository includes five directories, each containing code snippets in **JavaScript**, **Java**, and **Python** for designated CAPEC patterns and their associated weaknesses (CWE). Each directory represents a separate generation run using GPT-4o, aimed at testing the consistency and robustness of the outputs across iterations.
 
 ## Directory Structure
 
