@@ -9,6 +9,7 @@ This repository provides datasets generated from the **Common Attack Pattern Enu
 
 - [Overview](#overview)
 - [Models Used](#models-used)
+- [JSON File Structure](#json-file-structure)
 - [Purpose](#purpose)
 
 ## Overview
@@ -37,6 +38,17 @@ A 70-billion-parameter model from the Llama series, designed for complex languag
 
 A powerful language model by Anthropic, capable of understanding and generating sophisticated language patterns.
 
+## JSON File Structure
+
+Each JSON file in this repository follows a consistent structure. Each entry contains the following fields:
+
+- **`capec_id`**: A unique identifier for the CAPEC pattern.
+- **`capec_name`**: The name of the CAPEC pattern.
+- **`code_snippet`**: A code example that illustrates the vulnerability described by the CAPEC pattern.
+- **`description`**: A detailed explanation of the vulnerability demonstrated in the code snippet, including references to relevant CWEs.
+
+This structure ensures a standardized format across all datasets, making it easy for researchers and practitioners to analyze and compare the outputs of different models.
+
 ## Purpose
 
 This repository aims to support research in:
@@ -44,3 +56,12 @@ This repository aims to support research in:
 - **LLM Consistency Analysis**: Evaluating the consistency of code generation across different LLMs and multiple datasets.
 - **Comparative Model Study**: Comparing the outputs of GPT-4o, Llama 3 (70B), and Claude 3-5 Sonnet in generating code snippets for specific CAPEC patterns and CWEs.
 - **Vulnerability Representation**: Understanding how different models interpret and represent vulnerabilities in code across various programming languages.
+
+JSON File Structure
+Each JSON file in this repository follows a consistent structure. Each entry contains the following fields:
+
+capec_id: A unique identifier for the CAPEC pattern.
+capec_name: The name of the CAPEC pattern.
+code_snippet: A code example that illustrates the vulnerability described by the CAPEC pattern.
+description: A detailed explanation of the vulnerability demonstrated in the code snippet, including references to relevant CWEs.
+This structure ensures a standardized format across all datasets, making it easy for researchers and practitioners to analyze and compare the outputs of different models.
